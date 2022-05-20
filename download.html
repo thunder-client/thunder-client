@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" href="styles.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
 
 <body>
     <div class="web-sidebar web-bar-block web-card web-animate-left" style="display:none" id="mySidebar">
@@ -12,7 +13,8 @@
         <h1 style="margin:1rem">Thunder Client</h1>
         <img src="./unknown.png" style="height: 15%; width:50%; size:50%; margin:1rem">
         <a href="./index.html" class="web-bar-item web-button">Home</a>
-        <a href="https://discord.gg/73aJ5u44z9" target="_blank" rel="noopener noreferrer" class="web-bar-item web-button">Discord</a>
+        <a href="https://discord.gg/73aJ5u44z9" target="_blank" rel="noopener noreferrer"
+            class="web-bar-item web-button">Discord</a>
         <a style="cursor:not-allowed; opacity: 30%;" class="web-bar-item web-button">Download</a>
         <a href="./faq.html" class="web-bar-item web-button">FAQ</a>
         <a href="./store.html" class="web-bar-item web-button">Store</a>
@@ -24,14 +26,26 @@
             <button id="openNav" class="web-button web-xlarge" onclick="w3_open()">&#9776;</button>
             <div class="web-container">
                 <h1 style="font-weight: bold;">Thunder Client Downloads</h1>
+                <p>Coming Soon!</p>
+                <div style="position: relative; height: 10px;">
+                    <div style="transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); margin: 0; position: absolute; top: 50%; left: 50%;">
+                        <br><br><br><br><br><br><br><br>
+                        <button class="btn" data-btn>Download</button>
+                        <div class="checkmark-container">
+                            <svg x="0px" y="0px" fill="none" class="checkmark-svg" viewBox="0 0 25 30">
+                                <path d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <script src="./script.js">
-    </script>
-
+    <script src="./script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
 </body>
 
 </html>

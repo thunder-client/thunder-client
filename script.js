@@ -9,3 +9,8 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("openNav").style.display = "inline-block";
 }
+
+const btn = document.querySelector("[data-btn]")
+btn.addEventListener("click", () => {
+    btn.classList.add("animating")
+})
